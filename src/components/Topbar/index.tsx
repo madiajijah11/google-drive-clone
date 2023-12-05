@@ -7,7 +7,7 @@ import styles from "./Topbar.module.scss";
 export default function Topbar() {
   const { session } = useFetchSession();
   return (
-    <div className={styles.authBtn}>
+    <div className="absolute right-5 top-5">
       {session ? (
         <div className="flex items-center space-x-4">
           <Button
