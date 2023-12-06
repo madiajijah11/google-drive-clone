@@ -13,4 +13,5 @@ export interface ArrayType {}
 export interface File {
   id: string;
   parentId: string;
+  userEmail: string;
 }
