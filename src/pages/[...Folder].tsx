@@ -17,7 +17,7 @@ export default function Folder() {
 
   return (
     <>
-      <main className="flex-start flex min-h-screen items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+      <main className="flex-start flex min-h-screen items-center justify-center">
         <div>
           <Topbar />
           <Button
